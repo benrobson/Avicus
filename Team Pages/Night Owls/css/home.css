@@ -1,0 +1,150 @@
+/* Overall */
+
+body {
+  font-family: Arial Light;
+  font-size: 12pt;
+  min-height: 1500px;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.container img {
+    float: left;
+    padding: 10px;
+}
+
+.container {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Tahoma;
+}
+
+.container a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 39px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 24px 10px;
+    background-color: inherit;
+}
+
+.dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 16px 16px;
+    background-color: inherit;   
+}
+
+.container a:hover, .dropdown:hover .dropbtn {
+    background-color: #333;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 5px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Content */
+.content {
+    height: 1510px;
+}
+
+.article1 {
+    height: 1490px;
+    float: left;
+    background-color: #999999;
+    width: 20%;
+    padding: 15px;
+}
+
+.article1 h3 {
+	text-align: center;
+}
+
+.article2 {
+	display: inline-block;
+	width: 49%;
+	height: 1500px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.article2 h1 {
+	text-align: center;
+}
+
+.article3 {
+    height: 1500px;
+    width: 25%;
+    display: inline-block;
+    background-color: #999999;
+    padding: 10px;
+    float: right;
+}
+
+.article2::after{
+    clear: both;	
+}
+
+/* News Sidebar */
+
+.publish {
+	font-size: 10pt;
+}
+
+.news-content{
+	font-size: 12pt;
+}
+
+/* Footer */
+
+.footer {
+    padding-top: 10px;
+    margin-top: 11px; 
+    height: 0 auto;
+    text-align: center;
+    font-family: Tahoma;
+    color: white;
+    width: 100%;
+    background-color: #333;
+    display: block;
+}
