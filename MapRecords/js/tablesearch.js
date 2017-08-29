@@ -1,8 +1,8 @@
 function myFunction() {
   var input, filter, table, tr, td, i;
-  input = document.getElementById("myInput");
+  input = document.getElementById("search");
   filter = input.value.toUpperCase();
-  table = document.getElementById("myTable");
+  table = document.getElementById("records");
   tr = table.getElementsByTagName("tr");
 
   for (i = 0; i < tr.length; i++) {

@@ -113,34 +113,35 @@ body {
 }
 
 /* Table */
-#myInput {
+#search {
     background-image: url('assets/searchicon.png');
     background-position: 10px 12px;
     background-repeat: no-repeat;
     width: 94.4%;
-    font-size: 16px;
+    font-size: 15px;
     padding: 12px 20px 12px 40px;
     border: 1px solid #ddd;
     margin-bottom: 12px;
 }
 
-#myTable {
+#records {
     border-collapse: collapse;
     width: 100%;
     border: 1px solid #ddd;
-    font-size: 18px;
+    font-size: 16px;
+    font-family: Arial Light;
 }
 
-#myTable th, #myTable td {
+#records th, #records td {
     text-align: left;
     padding: 12px;
 }
 
-#myTable tr {
+#records tr {
     border-bottom: 1px solid #ddd; 
 }
 
-#myTable tr.header, #myTable tr:hover {
+#records tr.header, #records tr:hover {
     background-color: #f1f1f1;
 }
 
